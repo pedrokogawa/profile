@@ -1,5 +1,5 @@
 body {
-  background-color: #edede9;
+  background-color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -8,26 +8,28 @@ body {
 
 li {
   font-size: xx-large;
-  color: #1d3557;
+  color: #006d77;
 }
 
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
+  color: white;
 }
 
 h1 {
-  color: black;
+  color: white;
 }
 
 h2 {
-  color: #780000;
+  color: #0077b6;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
-  
+  color: #29903B;
 }
 
 a:hover {
@@ -47,6 +49,10 @@ img {
 
 .profile {
   background: thick double #e5e5e5;
+  background-color: #161B22;
+  margin: 10px;
+  border-radius: 6%;
+  border: solid 1px #415a77;
 }
 
 .card {
@@ -81,4 +87,27 @@ img {
   .container {
     width: 300px;
   }
+}
+
+.buttons {
+  background-color: #161B22;
+  margin: 10px;
+  border-radius: 6%;
+  border: solid 1px #415a77;
+}
+
+#hobbies {
+  text-align: center;
+}
+
+.hobbies-color{
+  color: white;
+  font-size: 15px;
+}
+
+#container-hobbies{
+  background-color: #161B22;
+  margin: 10px;
+  border-radius: 6%;
+  border: solid 1px #415a77;
 }
